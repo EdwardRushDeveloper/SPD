@@ -14,6 +14,11 @@ namespace SPD.ViewModels
     {
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
 
+        public BaseViewModel()
+        {
+
+        }
+
         bool isBusy = false;
         public bool IsBusy
         {
