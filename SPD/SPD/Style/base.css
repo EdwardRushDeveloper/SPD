@@ -1,0 +1,30 @@
+﻿.darkBackgroundColor {
+    background-color: #4A778A;
+}
+
+.middleBackgroundColor {
+    background-color: #BACDCF;
+}
+
+.lightBackgroundColor {
+    background-color: #BACDCF;
+}
+
+
+.standardButtonColor {
+    background-color: #94C83D;
+}
+
+.lightColorText {
+    color: #999999;
+}
+
+.standardButton {
+    background-color: #d9bd8c;
+    width: 125;
+    height: 35;
+    button-fontsize: large;
+    color: #ffffff;
+}
+
+

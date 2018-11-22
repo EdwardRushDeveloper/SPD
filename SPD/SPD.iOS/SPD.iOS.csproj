@@ -78,9 +78,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -124,6 +121,8 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\WEITACLogo.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -137,7 +136,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\SPD\SPD.csproj">
-      <Project>{3F00BA11-13A7-41EA-96BC-9EB5D64F0486}</Project>
+      <Project>{B5E478EB-C76A-4B99-9F1E-A0FFD2BE55BF}</Project>
       <Name>SPD</Name>
     </ProjectReference>
   </ItemGroup>
