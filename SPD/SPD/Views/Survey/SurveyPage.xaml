@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPD.Views.Survey.SurveyPage" 
+             xmlns:vm="clr-namespace:SPD.ViewModels" 
+             Title="{Binding Title}">
+    
+    
+    <ContentPage.BindingContext>
+        <vm:SurveyViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <StyleSheet Source="/Style/base.css" />
+    </ContentPage.Resources>
+    
+    
+<!--https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/picker/populating-itemssource#populating-a-picker-with-data -->   
+    <ContentPage.Content>
+        <Picker x:Name="ResponsePicker" Title="Select a Response">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                <x:String>Very seldom true of me or not true of me</x:String>
+                <x:String>Seldom true of me</x:String>
+                <x:String>Sometimes true of me</x:String>
+                <x:String>Often true of me</x:String>
+                <x:String>Very often true of me or true of me</x:String>                    
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </ContentPage.Content>
+    
+    
+    
+    
+</ContentPage>

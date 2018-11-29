@@ -7,7 +7,8 @@ namespace SPD.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        About,
+        Survey
     }
     public class HomeMenuItem
     {

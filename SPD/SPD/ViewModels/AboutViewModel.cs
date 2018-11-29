@@ -11,7 +11,7 @@ namespace SPD.ViewModels
         {
             Title = "About";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://winthrop.qualtrics.com/jfe/form/SV_ef9vMBXbDsnMQEB?Q_JFE=qdg")));
         }
 
         public ICommand OpenWebCommand { get; }
